@@ -1,0 +1,25 @@
+.footer{
+  background-color: #363535;
+}
+
+.toolbar{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.example-spacer{
+  flex: 1 1 auto;
+}
+.no-select{
+  user-select: none;
+  cursor: pointer;
+}
+.footer-social{
+  display: flex;
+}
+.socials_link:hover{
+  color: gray;
+}
+
+
+

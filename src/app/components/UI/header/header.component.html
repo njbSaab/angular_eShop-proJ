@@ -1,0 +1,26 @@
+<mat-toolbar class="header" color="primary">
+  <mat-toolbar-row>
+    <div class="toolbar no-select" routerLink="">
+        <button mat-icon-button aria-label="Example icon button with a menu icon"
+                [matMenuTriggerFor]="menu"
+        ><mat-icon>menu</mat-icon></button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>Item 1</button>
+          <button mat-menu-item>Item 2</button>
+          <button mat-menu-item>Item 3</button>
+          <button mat-menu-item>Item 4</button>
+          <button mat-menu-item>Item 5</button>
+        </mat-menu>
+      <span>Online shop</span>
+    </div>
+
+    <span class="example-spacer"></span>
+    <div class="toolbar no-select">
+      <button mat-raised-button color="black" class="btn" routerLink="">Главная</button>
+      <button mat-raised-button color="black" class="btn" routerLink="products">Товары</button>
+      <button mat-icon-button color="warn" aria-label="Example icon button with a heart icon" routerLink="basket">
+        <mat-icon>favorite</mat-icon>
+      </button>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

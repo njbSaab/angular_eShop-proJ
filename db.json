@@ -1,0 +1,103 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "MacBook ProM2-Lite",
+      "price": 1300,
+      "image": "assets/images/macPro.jpeg",
+      "model": "PRO",
+      "year": 2021,
+      "subTitle": "M2/ram-16/SSD 256TB",
+      "desc": "This card indeterminates progress bar card indeterminates progress bar...",
+      "configure": {
+        "chip": "M2",
+        "SSD": "256 GB",
+        "memory": "16 GB",
+        "display": "13 Retina"
+      }
+    },
+    {
+      "id": 2,
+      "title": "MacBook ProM2",
+      "price": 1900,
+      "image": "assets/images/macPro.jpeg",
+      "model": "PRO",
+      "year": 2022,
+      "desc": "Card indeterminates progress bar bar...",
+        "subTitle": "M2/ram-32/SSD 1TB",
+      "configure": {
+        "chip": "M2",
+        "SSD": "1000 TB",
+        "memory": "32 GB",
+        "display": "14 Retina"
+      }
+    },
+    {
+      "id": 3,
+      "title": "MacBook Air",
+      "price": 900,
+      "image": "assets/images/macPro.jpeg",
+      "model": "Air",
+      "year": 2022,
+      "subTitle": "M2/ram-16/SSD 512TB",
+      "desc": "This card indeterminates progress bar card indeterminates progress bar, bar card indeterminates progress bar...",
+      "configure": {
+        "chip": "M1",
+        "SSD": "512 GB",
+        "memory": "16 GB",
+        "display": "13 Retina"
+      }
+    },
+    {
+      "id": 7,
+      "title": "MacBook Air",
+      "price": 750,
+      "image": "assets/images/macPro.jpeg",
+      "model": "Air",
+      "year": 2020,
+      "subTitle": "M1/ram-16/SSD 512 GB",
+      "desc": "This card indeterminates progress bar card indeterminates progress bar bar card indeterminates progress bar, card indeterminates progress bar card indeterminates progress bar...",
+
+      "configure": {
+        "chip": "M1",
+        "SSD": "512 GB",
+        "memory": "8 GB",
+        "display": "13 Retina"
+      }
+    },
+    {
+      "id": 8,
+      "title": "MacBook Air",
+      "price": 400,
+      "image": "assets/images/macPro.jpeg",
+      "model": "Air",
+      "year": 2019,
+      "subTitle": "M1/ram-8/SSD 256TB",
+      "desc": "This card indeterminates progress bar card indeterminates progress bar card indeterminates progress bar...",
+      "configure": {
+        "chip": "M1",
+        "SSD": "256 GB",
+        "memory": "8 GB",
+        "display": "13 Retina"
+      }
+    },
+    {
+      "id": 9,
+      "title": "MacBook Pro",
+      "price": 1600,
+      "image": "assets/images/macPro.jpeg",
+      "model": "PRO",
+      "year": 2021,
+      "subTitle": "M1/ram-32/SSD 1TB",
+      "desc": "bar card indeterminates progress bar...",
+      "configure": {
+        "chip": "M2-s",
+        "SSD": "1TB",
+        "memory": "32 GB",
+        "display": "15 Retina"
+      }
+    }
+
+
+  ]
+}

@@ -24,7 +24,7 @@
       "model": "PRO",
       "year": 2022,
       "desc": "Card indeterminates progress bar bar...",
-        "subTitle": "M2/ram-32/SSD 1TB",
+      "subTitle": "M2/ram-32/SSD 1TB",
       "configure": {
         "chip": "M2",
         "SSD": "1000 TB",
@@ -57,7 +57,6 @@
       "year": 2020,
       "subTitle": "M1/ram-16/SSD 512 GB",
       "desc": "This card indeterminates progress bar card indeterminates progress bar bar card indeterminates progress bar, card indeterminates progress bar card indeterminates progress bar...",
-
       "configure": {
         "chip": "M1",
         "SSD": "512 GB",
@@ -97,7 +96,24 @@
         "display": "15 Retina"
       }
     }
-
-
+  ],
+  "basket": [
+    {
+      "id": 3,
+      "title": "MacBook Air",
+      "price": 900,
+      "image": "assets/images/macPro.jpeg",
+      "model": "Air",
+      "year": 2022,
+      "subTitle": "M2/ram-16/SSD 512TB",
+      "desc": "This card indeterminates progress bar card indeterminates progress bar, bar card indeterminates progress bar...",
+      "configure": {
+        "chip": "M1",
+        "SSD": "512 GB",
+        "memory": "16 GB",
+        "display": "13 Retina"
+      },
+      "quantitu": 3
+    }
   ]
 }

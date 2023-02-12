@@ -9,9 +9,14 @@
       <p class="price"><span>Price:</span> <b>{{product.price | currency}}</b> </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-button>В Козрину</button>
+      <button mat-button (click)="addToBasket(product)" type="button">В Козрину</button>
       <button mat-button [routerLink]="['/product', product.id]">Подробнее</button>
     </mat-card-actions>
   </mat-card>
 </div>
+
+<button mat-fab color="primary" class="btn" aria-label="Example icon button with a delete icon" (click)="openDialog()">
+   <mat-icon>message</mat-icon>
+</button>
+
 </div>

@@ -16,6 +16,10 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatDialogModule} from '@angular/material/dialog';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {MatInputModule} from '@angular/material/input';
+
 
 
 
@@ -42,6 +46,10 @@ import {MatMenuModule} from '@angular/material/menu';
     MatButtonModule,
     MatCardModule,
     MatMenuModule,
+    MatDialogModule,
+    ReactiveFormsModule,
+    FormsModule,
+    MatInputModule,
     HttpClientModule
   ],
   providers: [],
